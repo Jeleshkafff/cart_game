@@ -48,7 +48,7 @@ body {
 }
 
 .front {
-  background: url("../img/slime.png") no-repeat center center / contain;
+  background: url("img/slime.png") no-repeat center center / contain;
 }
 
 .back {

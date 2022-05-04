@@ -3,51 +3,51 @@ let x_position;
 let y_position;
 let cardsArray = [
   {
-    name: "shell",
+    name: "Paimon1",
     img: "img/Paimon1.jpg",
   },
   {
-    name: "star",
+    name: "Paimon2",
     img: "img/Paimon2.jpg",
   },
   {
-    name: "bobomb",
+    name: "Chongyun",
     img: "img/Chongyun.jpg",
   },
   {
-    name: "mario",
+    name: "Albedo",
     img: "img/Albedo.jpg",
   },
   {
-    name: "luigi",
+    name: "Diona",
     img: "img/Diona.jpg",
   },
   {
-    name: "peach",
+    name: "Ganyu",
     img: "img/Ganyu.jpg",
   },
   {
-    name: "1up",
+    name: "Keqing",
     img: "img/Keqing.jpg",
   },
   {
-    name: "mushroom",
+    name: "Raiden",
     img: "img/Raiden.jpg",
   },
   {
-    name: "thwomp",
+    name: "Scaramouche",
     img: "img/Scaramouche.jpg",
   },
   {
-    name: "bulletbill",
+    name: "Sucrose",
     img: "img/Sucrose.jpg",
   },
   {
-    name: "coin",
+    name: "Venti",
     img: "img/Venti.jpg",
   },
   {
-    name: "goomba",
+    name: "Xiao",
     img: "img/Xiao.jpg",
   },
 ];
@@ -122,11 +122,11 @@ grid.addEventListener("click", function (event) {
     count++;
     if (count === 1) {
       firstGuess = clicked.parentNode.dataset.name;
-      console.log(firstGuess);
+      //console.log(firstGuess);
       clicked.parentNode.classList.add("selected");
     } else {
       secondGuess = clicked.parentNode.dataset.name;
-      console.log(secondGuess);
+      // console.log(secondGuess);
       clicked.parentNode.classList.add("selected");
     }
 
